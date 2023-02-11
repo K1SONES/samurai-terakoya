@@ -1,0 +1,15 @@
+
+p::first-line {
+    font-size: 30px;
+    font-weight: bold;
+    color: gray;
+}
+h1::after {
+    content: "★";
+    color: pink;
+
+}
+h1::before {
+    content: "◎";
+    color: blue;
+}

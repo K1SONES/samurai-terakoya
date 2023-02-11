@@ -1,0 +1,22 @@
+.parent {
+    width: auto;
+    height: 300px;
+    background-color: yellow;
+}
+.child {
+    width: 50%;
+    min-width: 1500px;
+    background-color: orange;
+}
+#one {
+    height: auto;
+    background-color: yellow;
+}
+#two {
+    height: auto;
+    background-color: orange;
+}
+#three {
+    height: auto;
+    background-color: blueviolet;
+}
