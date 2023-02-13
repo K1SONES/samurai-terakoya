@@ -152,7 +152,7 @@ h3 {
   height: 480px;
   margin-right: 20px;
 }
-#product-left {
+#product-right > div {
   position: relative;
   height: 480px;
   margin-left: 20px;
