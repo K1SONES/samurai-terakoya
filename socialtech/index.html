@@ -258,7 +258,19 @@
                 <section id="contact">
                     <h2 class="index-h2">CONTACT</h2>
                     <h3>お問い合わせ</h3>
-                    <form>
+                    <!-- STATIC FORMSのタグ -->
+                    <form action="https://api.staticforms.xyz/submit" method="post">
+
+                        <input type="text" name="honeypot" style="display:none">
+                        <!-- アクセスキー -->
+                        <input type="hidden" name="accessKey" value="b1c28413-af7a-4505-bdeb-7dd2d0144ef5">
+                        <!-- メールのタイトル -->
+                        <input type="hidden" name="subject" value="websiteから問い合わせ" />
+                        <!-- 送信先のメールアドレス -->
+                        <input type="hidden" name="replyTo" value="maplekaiser7@gmail.com">
+                        <!-- redirectToのURLは公開後のURLへリンクする -->
+                        <input type="hidden" name="redirectTo" value="">
+                
                         <div>
                             <div class="contact-heading">
                                 <label class="contact-label">お名前<span class="contact-span">必須</span></label>
