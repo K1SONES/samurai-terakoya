@@ -1,53 +1,57 @@
 /* PC、スマホ共通スタイル　*/
 body {
-    font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN",Meiryo, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial,
+    sans-serif;
 }
 
 p {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 /*===========
 PC用のスタイル 
 ===========*/
-@media screen and (min-width: 768px){
-
+@media screen and (min-width: 768px) {
   /* 横幅設定 */
   body {
-      max-width: 1080px;
-      min-width: 960px;
-      margin: 0 auto 0 auto;
+    max-width: 1080px;
+    min-width: 960px;
+    margin: 0 auto 0 auto;
   }
   /* ヘッダー */
   hearder {
-      display: flex;
-      justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
   }
 
-    /* ナビゲーションのレイアウト */
-    #nav-pc {
-      text-align: right;
-      font-size: 14px;
-      padding-top: 15px;
-    }
-    #nav-pc > a {
-      text-decoration: none;
-      margin-left: 20px;
-    }
-    ナビゲーションリンクの装飾決定
-  #nav-pc > a:link {
-      color: #0d0d0d;
-    }
-    #nav-pc > a:visited {
-      color: #0d0d0d;
-    }
-    #nav-pc > a:hover {
-      color: #0d0d0d;
-      text-decoration: underline;
-    }
-    #nav-pc > a:active {
-      color: #0d0d0d;
-    }
+  /* ナビゲーションのレイアウト */
+  #nav-pc {
+    text-align: right;
+    font-size: 14px;
+    padding-top: 15px;
+  }
+  #nav-pc > a {
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  ナビゲーションリンクの装飾決定 #nav-pc > a:link {
+    color: #0d0d0d;
+  }
+  #nav-pc > a:visited {
+    color: #0d0d0d;
+  }
+  #nav-pc > a:hover {
+    color: #0d0d0d;
+    text-decoration: underline;
+  }
+  #nav-pc > a:active {
+    color: #0d0d0d;
+  }
+  /* スマホ用ナビを非表示 */
+  #nav-sp,
+  #menu-sp {
+    display: none;
+  }
   /* メインビジュアル */
   #main-visual {
     position: relative;
@@ -80,8 +84,8 @@ PC用のスタイル
   #main-visual > img {
     max-width: 620px;
     border-radius: 476px 0 0 0;
-    position:  absolute;
-    top: 0; 
+    position: absolute;
+    top: 0;
     right: 0;
     z-index: 10;
   }
@@ -164,7 +168,6 @@ PC用のスタイル
   .product-photo {
     width: 100%;
   }
-
 
   /* 説明文の枠 */
   .product-explain {
@@ -281,7 +284,6 @@ PC用のスタイル
     top: 0;
     left: 0;
     z-index: 30;
-
   }
 
   .vision-box > span {
@@ -372,7 +374,7 @@ PC用のスタイル
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-bottom: 30px; 
+    padding-bottom: 30px;
   }
 
   /* 左列の見出し */
@@ -413,7 +415,7 @@ PC用のスタイル
     border-bottom-style: solid;
     background-color: #fafafa;
     width: 400px;
-  height: 200px;
+    height: 200px;
   }
 
   /* 個人情報の取扱い */
@@ -477,7 +479,7 @@ PC用のスタイル
 /*========================
  スマートフォン用のスタイル 
  ========================*/
- @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   body {
     min-width: 375px;
     margin: 0;
@@ -544,7 +546,7 @@ PC用のスタイル
     background-repeat: no-repeat;
     background-position: right top;
   }
-  #sns{
+  #sns {
     position: absolute;
     bottom: 20px;
     left: 20px;
@@ -552,4 +554,39 @@ PC用のスタイル
   #sns > a {
     margin-right: 30px;
   }
- }
+}
+
+/* メインビジュアル */
+#main-visual {
+  position: relative;
+  height: 470px;
+  width: 100%;
+  overflow: hidden;
+}
+#main-visual > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #2710d5;
+  color: white;
+  border-radius: 0 0 476px 0;
+  text-align: center;
+  height: 280px;
+  width: 100%;
+  z-index: 11;
+}
+#main-visual > div > h1 {
+  font-size: 28px;
+  margin: 90px 0 0 0;
+}
+#main-visual > div p {
+  margin: 0;
+}
+#main-visual > img {
+  width: 100%;
+  border-radius: 476px 0 0 0;
+  z-index: 10;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
