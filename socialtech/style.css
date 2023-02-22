@@ -894,3 +894,14 @@ footer {
 #footer-link > a:active {
   color: #ffffff;
 }
+
+#sns-footer > a {
+  margin-right: 30px;
+}
+
+#copyright {
+  font-size: 12px;
+  display: block;
+  margin-top: 30px;
+  color: #ffffff;
+}
