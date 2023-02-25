@@ -1014,3 +1014,19 @@ footer {
   left: 20px;
   font-size: 13px;
 }
+
+/* ミッションページS2DGsの設定 */
+#mission-s2dgs {
+  margin: 20;
+}
+.mission-h2 {
+  color: #2710d5;
+  font-size: 38px;
+  margin: 0px;
+}
+.mission-h2::after {
+  content: none;
+}
+#mission-s2dgs > img {
+  width: 100%;
+}
