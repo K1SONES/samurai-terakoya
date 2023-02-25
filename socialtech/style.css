@@ -983,3 +983,34 @@ footer {
   margin-top: 30px;
   color: #ffffff;
 }
+
+/* mission.html用のスタイル */
+/* ミッションのメインビジュアル */
+#mission-main {
+  height: 256px;
+  width: 100%;
+  background-image: url("images/mission/mission-main.png");
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-size: auto 208px;
+}
+#mission-title {
+  background-color: #2710d5;
+  width: 136px;
+  color: #ffffff;
+  height: 256px;
+  border-radius: 0 248px 248px 0;
+  position: relative;
+}
+#mission-title > h1 {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  font-size: 18px;
+}
+#mission-title > div {
+  position: absolute;
+  top: 180px;
+  left: 20px;
+  font-size: 13px;
+}
