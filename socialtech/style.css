@@ -1008,6 +1008,12 @@ footer {
   left: 20px;
   font-size: 18px;
 }
+#mission-title > span {
+  position: absolute;
+  top: 110px;
+  left: 20px;
+  font-size: 18px;
+}
 #mission-title > div {
   position: absolute;
   top: 180px;
