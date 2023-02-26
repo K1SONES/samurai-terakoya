@@ -1186,4 +1186,34 @@ PC用のスタイル
     left: 20px;
     font-size: 13px;
   }
+
+  .product-section1 {
+    margin: 20px;
+  }
+  .product-section1 > img {
+    width: 100%;
+    border-radius: 0 300px 0 0;
+  }
+  .product-section2 {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .product-section2 > img {
+    order: 1;
+    width: 100%;
+    border-radius: 300px 0 0 0;
+  }
+  .product-section2 > div {
+    order: 2;
+  }
+  .product-h2 {
+    color: #2710d5;
+    font-size: 24px;
+    margin: 0;
+  }
+  .product-h3 {
+    font-size: 28px;
+    margin: 0;
+  }
 }
