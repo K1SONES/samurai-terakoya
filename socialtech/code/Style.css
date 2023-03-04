@@ -1,0 +1,15 @@
+/* PC、スマホ共通スタイル　*/
+body {
+  font-family: "Noto Sans Japanese", sans-serif;
+}
+.home {
+  position: absolute;
+  color: #000000;
+  line-height: 46px;
+  font-weight: 700;
+  font-size: 34px;
+  width: 163px;
+  height: 46px;
+  left: 208px;
+  top: 31px;
+}
