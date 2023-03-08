@@ -54,7 +54,7 @@ PC用のスタイル
     top: 109px;
     margin-top: 20px;
   }
-  .abouts {
+  .about-h2 {
     position: absolute;
     width: 104px;
     height: 46px;
@@ -63,6 +63,12 @@ PC用のスタイル
     font-weight: 700;
     font-size: 34px;
     color: #000;
+    margin: 22px;
+  }
+
+  .about-main {
+    display: flex;
+    margin: 20px;
   }
 }
 /*========================
