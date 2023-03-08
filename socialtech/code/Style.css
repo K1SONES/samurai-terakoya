@@ -19,6 +19,7 @@ PC用のスタイル
     top: 31px;
     border: solid 1px #000;
     padding: 11px 28px 12px 28px;
+    text-decoration: none;
   }
   .about {
     position: absolute;
@@ -30,6 +31,7 @@ PC用のスタイル
     font-weight: 700;
     font-size: 34px;
     font-style: normal;
+    text-decoration: none;
   }
   .works {
     position: absolute;
@@ -42,6 +44,7 @@ PC用のスタイル
     font-size: 34px;
     font-weight: 700;
     line-height: 46px;
+    text-decoration: none;
   }
   #main-visual {
     position: absolute;
@@ -50,6 +53,16 @@ PC用のスタイル
     left: 0;
     top: 109px;
     margin-top: 20px;
+  }
+  .abouts {
+    position: absolute;
+    width: 104px;
+    height: 46px;
+    left: 428px;
+    top: 559px;
+    font-weight: 700;
+    font-size: 34px;
+    color: #000;
   }
 }
 /*========================
