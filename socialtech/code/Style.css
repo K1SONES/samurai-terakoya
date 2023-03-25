@@ -72,34 +72,41 @@ PC用のスタイル
     font-weight: 700;
     font-size: 34px;
     color: #000;
-    margin: 22px;
+    margin: 0 auto;
   }
 
   .about-main {
     display: flex;
-    position: relative;
-    margin: 0 auto;
   }
   .about-img {
     width: 141px;
     height: 142px;
     left: 321px;
     top: 631px;
+
     border-radius: 71px;
   }
 
   .name {
     width: 183px;
     height: 33px;
-    left: 354px;
-    top: 627px;
     font-size: 24px;
     font-weight: 700;
-    margin-left: 150px;
   }
   .list {
     left: 354px;
     top: 673px;
+  }
+  .works-h2 {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+  }
+  .img-works1,
+  .img-works2,
+  .img-works3 {
+    width: 179px;
+    height: 134px;
   }
 }
 /*========================
